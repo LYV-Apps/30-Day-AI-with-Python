@@ -10,7 +10,7 @@ Welcome to your first AI project! This script analyzes your text input (e.g., "I
 1. Ensure Python is installed (see `../setup_guide.md`).
 2. In root directory activate virutal env: `source venv/bin/activate`
 3. Move into the correct working directory by running `cd Day_01_MoodPlaylistGenerator`
-4. Install required dependencies `python3 pip install requirements.txt`
+4. Install required dependencies `pip install -r requirements.txt`
 4. Import the Natural Language Toolkit (NLTK) library from the terminal by running `python3 -c "import nltk; nltk.download('vader_lexicon')"`
 5. Run your first AI project by running `python3 mood_playlist_generator.py`
 

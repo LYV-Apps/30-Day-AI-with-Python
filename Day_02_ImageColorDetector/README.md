@@ -13,5 +13,5 @@ This project detects and displays the dominant colors in an image using K-Means 
 ## Setup
 1. In root directory activate virutal env `source venv/bin/activate`
 2. Move into the correct working directory by running `cd Day_02_ImageColorDetector`
-3. Install required dependencies `python3 pip install requirements.txt`
+3. Install required dependencies `pip install -r requirements.txt`
 4. Run the program: `python3 image_color_detector.py`
