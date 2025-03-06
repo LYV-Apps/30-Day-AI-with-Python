@@ -1,12 +1,15 @@
-# Day 1 requirements 
 colorama==0.4.6
+numpy==1.26.4
+scikit-learn==1.5.1
+
+# Day 1 requirements 
 nltk==3.8.1
 
 # Day 2 requirements
 opencv-python==4.9.0.80
-numpy==1.26.4
 matplotlib==3.9.0
-scikit-learn==1.4.1.post1
 
 # Day 3 requirements
 deep_translator==1.11.4
+
+# Day 4 requirements
