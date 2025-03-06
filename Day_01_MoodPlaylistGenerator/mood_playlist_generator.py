@@ -32,7 +32,7 @@ def get_playlist(mood):
     """Get a Spotify playlist based on mood."""
     return mood_playlists.get(mood, "No playlist found for this mood.")
 
-def slow_print(text, delay=0.05):
+def slow_print(text, delay=0.1):
     print(text)
     time.sleep(delay)
 
