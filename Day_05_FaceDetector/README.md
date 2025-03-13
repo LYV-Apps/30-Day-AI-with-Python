@@ -1,12 +1,11 @@
 # Face Detector
 
-This project implements a Rock, Paper, Scissors game where an AI learns the user’s patterns and predicts their next move using machine learning. Powered by scikit-learn, the AI adapts over time to counter your strategies!
+This project implements a Face Detector application that uses computer vision to identify faces in static images. Powered by OpenCV, this tool demonstrates the simplicity and power of AI-driven image processing!
 
 ## Requirements
 
 - Python 3.x
 - OpenCV (https://pypi.org/project/opencv-python/)
-- NumPy (https://pypi.org/project/numpy/)
 
 ## Setup
 1. In root directory activate virutal env `source venv/bin/activate`
