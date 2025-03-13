@@ -1,7 +1,7 @@
 import cv2
-import time
-from colorama import init, Fore, Style
 import os
+import time
+from colorama import Fore, Style
 
 def slow_print(text, delay=0.1):
     print(text)
