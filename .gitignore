@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+env/
+
+# Cached model file
+*.pkl
+
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
