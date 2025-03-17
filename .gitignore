@@ -12,3 +12,6 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+
+# Cached data
+**/movielens_data/
