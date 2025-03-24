@@ -16,5 +16,5 @@ __pycache__/
 # Cached data
 **/movielens_data/
 
-#Tokens
+# Tokens & Keys
 .env

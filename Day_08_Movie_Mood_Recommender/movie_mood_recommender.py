@@ -162,7 +162,7 @@ def run_recommender():
 if __name__ == "__main__":
     slow_print(f"{Fore.CYAN}{'*' * 27}{Style.RESET_ALL}")
     slow_print(f"{Fore.GREEN}*    🤖  30 DAY AI  🤖    *{Style.RESET_ALL}")
-    slow_print(f"{Fore.YELLOW}*    WELCOME TO DAY 7!    *{Style.RESET_ALL}")
+    slow_print(f"{Fore.YELLOW}*    WELCOME TO DAY 8!    *{Style.RESET_ALL}")
     slow_print(f"{Fore.RED}*  MOVIE MOOD RECOMMENDER  *{Style.RESET_ALL}")
     slow_print(f"{Fore.BLUE}*           🎬✅          *{Style.RESET_ALL}")
     slow_print(f"{Fore.CYAN}{'*' * 27}{Style.RESET_ALL}")
