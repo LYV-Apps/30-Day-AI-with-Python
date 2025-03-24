@@ -2,6 +2,7 @@ import cv2
 import matplotlib.pyplot as plt 
 import numpy as np 
 import os
+from thirty_days_pyai_helpers.print import slow_print, slow_print_header, slow_print_error, print_intro
 from sklearn.cluster import KMeans 
 
 # Function to detect dominant colors in an image
@@ -37,9 +38,9 @@ def detect_dominant_colors(image_path, num_colors=5):
 # Function to display the dominant colors
 def display_dominant_colors(dominant_colors, color_proportions, image_path):
     # Print RGB values of the dominant colors: 
-    print("\nDominant Colors (RGB):")
+    slow_print_header("Dominant Colors (RGB):")
     for i, color in enumerate(dominant_colors):
-        print(f"Color {i+1}: {color}")
+        slow_print(f"Color {i+1}: {color}")
 
     # Create a single figure with 2 sublplots (stacked vertically)
     fig = plt.figure(figsize=(8,6))
@@ -87,7 +88,7 @@ def list_image_paths():
     
     # Check if the images directory exists
     if not os.path.exists(images_dir):
-        print(f"Images directory not found: {images_dir}")
+        slow_print(f"Images directory not found: {images_dir}")
         return []
     
     # List all files in the images directory
@@ -97,14 +98,15 @@ def list_image_paths():
     image_paths = [os.path.join(images_dir, img) for img in image_files]
     
     # Print out the paths
-    print("Image Paths:")
+    slow_print_header("Image Paths:")
     for index, path in enumerate(image_paths):
-        print(f"{index + 1}: {os.path.basename(path)}")
+        slow_print(f"{index + 1}: {os.path.basename(path)}")
     
     return image_paths
 
 # Main execution
 if __name__ == "__main__":
+    print_intro(2, "Image Color Detector", "Colorful Images, Colorful Life!")
     images = list_image_paths()
     image_path = "images/grok_field_of_flowers.jpg"
 
@@ -118,5 +120,5 @@ if __name__ == "__main__":
         display_dominant_colors(dominant_colors, color_proportions, images[selected_image-1])
         
     except Exception as e:
-        print(f"An error occurred: {e}")
+        slow_print_error(f"An error occurred: {e}")
 
