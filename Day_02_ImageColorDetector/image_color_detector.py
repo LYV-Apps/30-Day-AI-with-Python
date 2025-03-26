@@ -80,15 +80,12 @@ def list_image_paths():
     # Get the directory of the current Python script
     current_script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # Navigate to the parent directory
-    parent_dir = os.path.dirname(current_script_dir)
-    
     # Path to the images folder in the parent directory
     images_dir = os.path.join(current_script_dir, 'images')
     
     # Check if the images directory exists
     if not os.path.exists(images_dir):
-        slow_print(f"Images directory not found: {images_dir}")
+        slow_print(f"Images directory not found: {images_dir}", 'GREEN')
         return []
     
     # List all files in the images directory

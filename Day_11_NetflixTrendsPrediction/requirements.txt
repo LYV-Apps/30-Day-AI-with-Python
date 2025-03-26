@@ -1,0 +1,5 @@
+kagglehub>=0.2.9
+numpy>=1.26.4
+pandas>=2.2.2
+matplotlib>=3.8.4
+scikit-learn>=1.4.2

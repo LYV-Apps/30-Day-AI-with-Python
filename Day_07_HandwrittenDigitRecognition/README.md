@@ -13,6 +13,6 @@ This project uses Python and Scikit-learn to classify a handwritten digit from `
 
 ## Setup
 1. In root directory activate virutal env `source venv/bin/activate`
-2. Move into the correct working directory by running `cd Day_07_Handwritten_Digit_Recognition`
+2. Move into the correct working directory by running `cd Day_07_HandwrittenDigitRecognition`
 3. Install required dependencies `pip install -r requirements.txt`
 4. Run the program: `python3 handwritten_digit_recognition.py`
